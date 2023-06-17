@@ -1,0 +1,37 @@
+{
+    "$schema": "http://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "target": "ESNext",
+        "skipDefaultLibCheck": true,
+        "lib": [ "ES2015", "DOM" ],
+        "module": "CommonJS",
+        "moduleResolution": "Node",
+        "rootDir": "src",
+        "outDir": "lib",
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "sourceMap": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true,
+        "emitDecoratorMetadata": true,
+        "strict": true,
+        "strictPropertyInitialization": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": false,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "downlevelIteration": true,
+        "preserveSymlinks": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": [
+        "lib",
+        "node_modules",
+        "doc",
+        "coverage"
+    ]
+}

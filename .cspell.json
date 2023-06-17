@@ -1,0 +1,39 @@
+{
+    "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/master/cspell.schema.json",
+    "version": "0.2",
+    "files": [
+        "**/*"
+    ],
+    "enabledLanguageIds": [
+        "markdown",
+        "typescript"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "coverage",
+        "doc/api/**",
+        "src/sandbox/**",
+        "src/main/zsync/**",
+        "src/test/data/**",
+        "c/**",
+        "package-lock.json",
+        "git",
+        "lib",
+        "dist",
+        "*.log",
+        "*.tgz"
+    ],
+    "words": [
+        "byteranges",
+        "datastream",
+        "finalhandler",
+        "getopt",
+        "kayahr",
+        "Reimer",
+        "zsync"
+    ],
+    "language": "en",
+    "enableFiletypes": [
+        "json"
+    ]
+}

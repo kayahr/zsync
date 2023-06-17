@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "lib": true,
+        "node_modules": true,
+        "coverage": true,
+        "doc/api": true
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "task.allowAutomaticTasks": "on",
+    "files.associations": {
+        "zlib.h": "c",
+        "types.h": "c",
+        "stdio.h": "c",
+        "random": "c",
+        "http.h": "c"
+    }
+}

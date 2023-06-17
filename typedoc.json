@@ -1,0 +1,12 @@
+{
+    "$schema": "https://typedoc.org/schema.json",
+    "entryPoints": [
+        "src/main",
+        "src/typings"
+    ],
+    "basePath": "src/main",
+    "entryPointStrategy": "expand",
+    "out": "doc/api",
+    "excludePrivate": true,
+    "gitRevision": "main"
+}
